@@ -3,7 +3,7 @@
 #--platform=linux/amd64 library/mysql:8.0
 #--platform=linux/amd64 library/redis:alpine
 --platform=linux/amd64 minio/minio
---platform=linux/amd64 paperlessngx/paperless-ngx
+#--platform=linux/amd64 paperlessngx/paperless-ngx
 # --platform=linux/amd64 openwebui/openwebui
 # --platform=linux/amd64 ollama/ollama
 #支持私库
