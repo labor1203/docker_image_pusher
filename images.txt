@@ -1,11 +1,10 @@
 
-
-#--platform=linux/amd64 library/mysql:8.0
-#--platform=linux/amd64 library/redis:alpine
---platform=linux/amd64 minio/minio
-#--platform=linux/amd64 paperlessngx/paperless-ngx
-# --platform=linux/amd64 openwebui/openwebui
-# --platform=linux/amd64 ollama/ollama
+ghcr.io/open-webui/open-webui:main
+mysql:8.0
+redis:alpine
+	minio/minio:latest
+paperlessngx/paperless-ngx:latest
+ollama/ollama:latest
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
